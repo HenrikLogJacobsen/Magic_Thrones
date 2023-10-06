@@ -732,7 +732,7 @@ class Player extends Entity{
         this.level = 0;
         this.screenID = 0
         this.updateSpeed = 2; //interval - hvert 2-ende millisek
-        this.speed = 7;
+        this.speed = 5;
         this.jumpHeight = 10; //10 => Y-speed = 10 pixels/frame
         this.faceDirection = false; //true for right, false for left
         this.walktime = 0;
